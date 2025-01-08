@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 * {
     margin: 0;
@@ -26,9 +27,10 @@ nav.principal {
 
 nav.principal .name {
     color: aliceblue;
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight: bold; /* Pode ser ajustado para 400 ou 700 conforme necessário */
     margin-right: 50px; /* Distância entre o nome e os links */
+    font-family: 'Dancing Script', cursive; /* Adicionando a fonte personalizada */
 }
 
 nav.principal .links {
@@ -71,11 +73,12 @@ nav.principal .links a {
 }
 
 .foto {
-    width: 100px;
-    height: 100px;
+    width: 20vw; /* 20% da largura da viewport */
+    height: 20vw; /* Altura igual para manter o círculo */
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #282B22;
+    object-position: center;
+    /*border: 2px solid #282B22;*/
 }
 
 .conteudo h2 {
